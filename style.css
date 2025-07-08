@@ -1,4 +1,5 @@
-* {
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -82,6 +83,9 @@ main {
     background: #444444;
     padding: 1.5rem;
     border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
@@ -94,21 +98,27 @@ main {
     color: #9645ff;
 }
 
-.espacar {
+
+.flex{
     display: flex;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+  
 }
 
-.flex {
-    display: flex;
-}
+
+
 
 .flexRAP {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+@media (max-width: 768px) {
+  .flexRAP {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card-igual {
@@ -159,9 +169,8 @@ h2 {
 
 
 p {
+    
     color: white;
-    max-width: 700px;
-    margin: auto;
     line-height: 1.5;
 
 }
@@ -181,17 +190,3 @@ footer {
     background: #373737;
     margin-top: 2rem;
 }
-
-/* @media (min-width: 700px) {
-    nav {
-        display: flex;
-    }
-
-    .grid-cols-2 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grid-cols-4 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-} */
