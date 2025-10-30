@@ -1,4 +1,4 @@
-
+  
 
   * {
     margin: 0;
@@ -43,7 +43,7 @@ header {
 header a{
  color: white;
 }
-header a:hover{color: #c45800;}
+header a:hover{color: #F24E1E;}
 
 header h1 {
     font-size: 1.5rem;
@@ -144,6 +144,7 @@ main {
     text-decoration: none;
     color: white;
     background: #c45800;
+    /*background: #c45800;*/
 }
 
 
@@ -157,7 +158,7 @@ main {
 .button-outline {
     background: none;
     color: #e2e8f0;
-    border: 2px solid #c45800;
+    border: 2px solid #F24E1E;
 }
 
 h2 {
