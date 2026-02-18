@@ -1,125 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breno Matos </title>
   <link rel="shortcut icon" href="img/BrenoD.svg" type="image/x-icon">
-  <linanba rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <header>
-    <div class="nav">
-      <!-- <h1>Breno Matos</h1> -->
-      <nav class="aling">
-        <a href="#sobre">Sobre</a>
-        <a href="#habilidade">Habilidades</a>
-        <a href="#formacao">Formação</a>
-        <a href="#contato">Contato</a>
-      </nav>
-    </div>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#conhecimentos">Conhecimentos</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#formacoes">Formações</a>
+    <a href="#contatos">Contato</a>
   </header>
 
   <main>
 
+    <section id="inicio">
+      <div class="roxo"></div>
+
+      <div class="centralizado">
+        <div class="separar">
+
+          <h1>Olá, eu sou <span>Breno</span></h1>
+          <p class="text"><span>Crio projetos</span> para WEB e transformo ideias <br> em aplicações que <span>realmente
+              funcionam</span>.</p>
+          <div class="contato">
+            <a href="" class="" alt="gmail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="" class="" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="" alt="github"><i class="fa-brands fa-github"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
 
 
-    
-    <section id="sobre" class="textCenter">
-      <img src="img/BrenoD.svg" alt="Breno">
-      <p>Desenvolvedor de Sistemas</p>
-      <div class="buttons">
-        <a href="BrenoMatosCurriculo.pdf" download class="button button-outline">Download CV</a>
+
+
+
+
+
+    <section id="sobre" class="sobre">
+
+      <div class="container tituloConteudo">
+        <h1 class="textCenter">Um pouco <span>sobre mim</span></h1>
+
+        <p class="text">
+          Sou estudante e profissional em formação na área de Tecnologia da Informação, com foco em
+          desenvolvimento web. Possuo experiência na criação de aplicações utilizando JavaScript, PHP e SQL.
+          <br>
+          Além do desenvolvimento web, também possuo conhecimentos na área de redes e infraestrutura, agregando uma base
+          técnica complementar ao meu trabalho como desenvolvedor. Busco evolução constante como desenvolvedor web, sem
+          deixar de lado a base de infraestrutura que sustenta as aplicações.
+        </p>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="conhecimentos" class="sobre">
+
+      <div class="container tituloConteudo">
+
+        <h1 class="textCenter">Habilidade</h1>
+
+        <div class="habilidade">
+          <p><i class="fa-solid fa-database"></i></p>
+          <p><i class="fa-brands fa-git-alt"></i></p>
+          <p><i class="fa-brands fa-php"></i></p>
+          <p><i class="fa-brands fa-js"></i></p>
+          <p><i class="fa-brands fa-github"></i></p>
+        </div>
+
+        <p id="descricao" class="textCenter">/*passo o mouse */</p>
+
+      </div>
+
+    </section>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="formacoes" class="card sobre">
+
+      <div class="tituloConteudo">
         
-      </div>
-      <div class="buttons">
-                
-         <a href="mailto:brenomatostrabalho@gmail.com"><img src="img/gmail.svg" alt="Gmail">  </a>  
-
-         <a target="_blank" href="https://www.linkedin.com/in/breno-matos-b4688a383"> <img src="img/linkedIn.svg" alt="LinkedIn">  </a> 
-
-         <a href="https://github.com/brenokm"> <img src="img/github.svg" alt="GitHub">      </a>      
-               
-        </div>
-    </section>
-
-    <section class="card">
-       <h2 class="textCenter">Sobre mim</h2>
-
-      <div class="flex">       
-
-        <p >Meu nome é Breno, sou programador focado em desenvolvimento web, com formação técnica em desenvolvimento de software e atualmente cursando Engenharia da computação. Com conhecimentos em html, CSS, JS e C#, busco criar aplicações que combinem funcionalidade e uma experiência de usuário intuitiva.</p>
-      </div>
-    </section>
-
-    <section id="habilidade">
-      <div class="card">
-        <h3 class="textCenter"> Tecnologias</h3>
-        <div class="buttons">
-                
-          <img src="img/MySQL.svg" alt="MySQL">          
-          <img src="img/git.svg" alt="Git">          
-          <img src="img/CSharp.svg" alt="CSharp">          
-          <img src="img/javaScript.svg" alt="JavaScript">          
-        </div>
-      <!--  <p class="textCenter">Passe o mouse por cima do icone</p>  -->
-      </div>
-    </section>
-
-    
-
-    <div class="flexRAP">
-
-      <div class="card">
-        <h3 class="textCenter"> Habilidades</h3>
-        <p>Tenho conhecimentos em lógica de programação e também <br>desenvolvi habilidades importantes em trabalho em equipe e <br>atendimento ao cliente, garantindo uma boa comunicação e <br>colaboração. Além disso, possuo noções básicas de redes e <br> manutenção de computadores.</p>
-        
-      </div>
-
-      <div class="card">
-        <h3 class="textCenter"> Idiomas</h3>
-        <div class="flex">
-          <img src="img/usa.svg" alt="USA Flag">         
-          <p>Inglês - Intermediário</p>
-        </div>
-        <div class="flex">
-          <img src="img/Brasil.svg" alt="Brasil Flag">
-          <p>Português - Nativo</p>
-        </div>
-      </div>
-
-
-    </div>
-   
-
-
-
-
-
-    <div class="grid grid-cols-2">
-      <section id="formacao" class="card">
-        <h3 class="textCenter"> Educação</h3>
-        <p><strong>Ensino Superior UCL</strong></p>
+        <h1 class="textCenter">Formações</h1>
+        <div>
+          
+          <p><strong>Ensino Superior UCL</strong></p>
           <p>Engenharia da Computação (Jul 2025 - Presente)</p>
-        <p><strong>Técnico SENAI-VITÓRIA</strong></p>
-        <p>Desenvolvimento de Sistemas (Fev 2023 - Jul 2024)</p>
-      </section>
-    </div>
+          
+          
+          <p><strong>Técnico SENAI-VITÓRIA</strong></p>
+          <p>Desenvolvimento de Sistemas (Fev 2023 - Jul 2024)</p>
+        </div>
+      </div>
+
+    </section>
 
 
 
 
 
-    
+
+
+
   </main>
 
+  <section id="contatos">
+    <p class="text">Estou sempre <span>disponível </span>para conversar. <br>
+      Envie-me um <span>EMAIL </span>ou entre em contato pelo <span>LINKEDIN</span>.</p>
+  </section>
+
   <footer>
-    <p>© 2025 Portfólio Breno Matos</p>
+    <p>© 2026 Portfólio Breno Matos</p>
   </footer>
-  <script src="main.js"></script>
+  <script src="./main.js"></script>
 </body>
+
 </html>

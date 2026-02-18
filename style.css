@@ -1,194 +1,106 @@
-  
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    /* scroll-behavior: smooth; */
-    font-family: sans-serif;
-    background: #2C2C2C;
     color: white;
+    font-weight: 300;
+
 }
+body {
+  background-color: #2C2C2C;
+    font-family: "Inter";
 
 
-
-.BRV {
-
-    max-width: 500px;
-    max-height: 250px;
-    width: auto;
-    height: auto;
-    border-radius: 5px;
 }
-
-
-nav {
-  max-width: 1200px;
-  padding: 1rem;
-  display: flex;
-  display: flex;
-  gap: 20px; /* controla o espaçamento entre os links */
-  justify-content: center; /* centraliza se quiser */
+span{
+    color: #F24E1E;
 }
-
-header {
-    background: #373737;
-    display: flex;
-    justify-content: center;
+i{
+    color: #ae70ff;
+    font-size: 4rem;
 }
-
-header a{
- color: white;
-}
-header a:hover{color: #F24E1E;}
-
-header h1 {
+.text{
     font-size: 1.5rem;
-    font-weight: bold;
-    background: linear-gradient(to right, #9645ff, #6713d6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-
-
-.container-cardes {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap; /* para responsividade */
-  max-width: 100%;
-  margin: 0 auto;
+.container{
+    width: 100%;
+    max-width: 70%; /* ou 1100px */
+    margin: 0 auto;    /* centraliza */
+    padding: 0 1rem;   /* respiro lateral */
 }
-
-.carde {
-  flex: 1 1 300px; /* mínimo de 300px, cresce igualmente */
-  max-width: 500px; /* limite para não ultrapassar */
-  background-color: #444;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-sizing: border-box;
+a{
+    text-decoration: none;
 }
-
-main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2rem 1rem;
+.habilidade{
+    display: flex;
+    justify-content: space-evenly;
 }
-
-.card {
-    margin-top: 1rem;
-    background: #444444;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
+.contato{
+   font-weight:lighter ;
+   display: flex;
+   gap: 2rem;
+   color: aqua;
+   justify-content: space-evenly;
+   
+    
+}
+.textCenter{
+    text-align: center;
+}
+.tituloConteudo{
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-
+    gap: 6rem;
 }
-
-.textCenter {
-    text-align: center;
+section{
+    height: 100vh;
 }
-
-.title {
-    color: #9645ff;
+.roxo{
+    height: 100%;
+    width: 30%;
+    background-color: #432B62;
 }
+header {
+  margin-top: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 60%;
+  width: 70%;
+  z-index: 1000;
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
 
-
-.flex{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 20px;
+  gap: 20px;
   
 }
+    header a:focus, header a:active{
+    color: #F24E1E;
+    }
 
-
-
-
-.flexRAP {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-@media (max-width: 768px) {
-  .flexRAP {
-    grid-template-columns: 1fr;
-  }
-}
-
-.card-igual {
-  flex: 1 1 300px;    /* mínimo 300px e ocupa espaço igual */
-  max-width: 500px;   /* limite da largura */
-  box-sizing: border-box;
-}
-
-.aling{
+#inicio{
     display: flex;
-    align-items: center;
+}
+.centralizado{
+width: 70%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+.separar{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
-.button {
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-weight: bold;
+.sobre{
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    text-decoration: none;
-    color: white;
-    background: #c45800;
-    /*background: #c45800;*/
-}
-
-
-.buttons {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.button-outline {
-    background: none;
-    color: #e2e8f0;
-    border: 2px solid #F24E1E;
-}
-
-h2 {
-    text-align: center;
-    color: #9333ea;
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-
-p {
-    
-    color: white;
-    line-height: 1.5;
-
-}
-
-h3 {
-    color: #9333ea;
-    text-align: center;
-    font-size: 1.55rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-}
-
-
-footer {
-    text-align: center;
-    padding: 0.5rem 0.5rem;
-    background: #373737;
-    margin-top: 2rem;
+    align-items: center;
 }
