@@ -11,9 +11,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="code.png" type="image/x-icon">
 </head>
 
 <body>
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
   <header>
     <a href="#inicio">Inicio</a>
     <a href="#sobre">Sobre</a>
@@ -25,7 +29,7 @@
 
   <main>
 
-    <section id="inicio">
+    <section id="inicio"">
       <div class="roxo"></div>
 
       <div class="centralizado">
@@ -34,6 +38,7 @@
           <h1>Olá, eu sou <span>Breno</span></h1>
           <p class="text"><span>Crio projetos</span> para WEB e transformo ideias <br> em aplicações que <span>realmente
               funcionam</span>.</p>
+          <p class="dev">Desenvolvedor Full-Stack</p>
           <div class="contato">
             <a href="" class="" alt="gmail"><i class="fa-solid fa-envelope"></i></a>
             <a href="" class="" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
@@ -52,7 +57,7 @@
 
 
 
-    <section id="sobre" class="sobre">
+    <section id="sobre" class="sobre dark">
 
       <div class="container tituloConteudo">
         <h1 class="textCenter">Um pouco <span>sobre mim</span></h1>
@@ -83,9 +88,9 @@
 
     <section id="conhecimentos" class="sobre">
 
-      <div class="container tituloConteudo">
+      <div  class="container tituloConteudo">
 
-        <h1 class="textCenter">Habilidade</h1>
+        <h1 class="textCenter">Meus <span>conhecimentos</span></h1>
 
         <div class="habilidade">
           <p><i class="fa-solid fa-database"></i></p>
@@ -93,18 +98,79 @@
           <p><i class="fa-brands fa-php"></i></p>
           <p><i class="fa-brands fa-js"></i></p>
           <p><i class="fa-brands fa-github"></i></p>
+          <p><i class="fa-solid fa-network-wired"></i></p>
         </div>
 
         <p id="descricao" class="textCenter">/*passo o mouse */</p>
 
       </div>
+      <div>
 
+        <div></div>
+        <div></div>
+
+      </div>
     </section>
 
 
 
 
-    </section>
+  <section id="projetos" class=" sobre tituloConteudo dark">
+  <h1 class="textCenter">Meus <span>projetos</span></h1>
+  <div class="container tituloConteudo">
+
+    <div class="projetos-scroll">
+      
+      <div class="card-projeto">
+
+        <div class="card-conteudo">
+          <h3>Controle de Gastos</h3>
+          <img src="" alt="">
+          <p>Sistema web para gerenciamento financeiro pessoal.</p>
+
+          <a href="" 
+             target="_blank" 
+             class="btn-github">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="card-projeto">
+
+        <div class="card-conteudo">
+          <h3>Lanchonete</h3>
+           <img src="" alt="">
+          <p>Sistema para uma lanchonete</p>
+
+          <a href="" 
+             target="_blank" 
+             class="btn-github">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="card-projeto">
+
+        <div class="card-conteudo">
+          <h3>Loading...</h3>
+           <img src="" alt="">
+          <p>loading...</p>
+
+          <a href="" 
+             target="_blank" 
+             class="btn-github">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
 
 
@@ -119,15 +185,10 @@
     <section id="formacoes" class="card sobre">
 
       <div class="tituloConteudo">
-        
+
         <h1 class="textCenter">Formações</h1>
         <div>
-          
-          <p><strong>Ensino Superior UCL</strong></p>
-          <p>Engenharia da Computação (Jul 2025 - Presente)</p>
-          
-          
-          <p><strong>Técnico SENAI-VITÓRIA</strong></p>
+          <p><strong>SENAI-VITÓRIA</strong></p>
           <p>Desenvolvimento de Sistemas (Fev 2023 - Jul 2024)</p>
         </div>
       </div>
@@ -143,13 +204,17 @@
 
   </main>
 
-  <section id="contatos">
-    <p class="text">Estou sempre <span>disponível </span>para conversar. <br>
-      Envie-me um <span>EMAIL </span>ou entre em contato pelo <span>LINKEDIN</span>.</p>
+  <section id="contatos" class="dark">
+    <div class="final">
+
+      <p class="text">Estou sempre disponível para conversar. <br>
+        Envie-me um <a href=""><span>EMAIL </span></a>ou entre em contato pelo <a href="">
+          <br><span>LINKEDIN</span></a>.</p>
+      </div>
   </section>
 
   <footer>
-    <p>© 2026 Portfólio Breno Matos</p>
+    <p class="textCenter">© 2026 Portfólio Breno Matos</p>
   </footer>
   <script src="./main.js"></script>
 </body>
