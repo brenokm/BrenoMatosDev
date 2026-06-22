@@ -21,7 +21,7 @@ icons.forEach(icon => {
         descricao.textContent = "Desenvolvimento back-end com PHP";
       }
       if (icon.classList.contains("fa-js")) {
-        descricao.textContent = "Interatividade e lógica com JavaScript";
+        descricao.textContent = "Interatividade com JavaScript e desenvolvimento back-end node.js ";
       }
       if (icon.classList.contains("fa-github")) {
         descricao.textContent = "Hospedagem e colaboração em projetos no GitHub";
